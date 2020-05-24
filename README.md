@@ -13,7 +13,7 @@ You will need the following things properly installed on your computer.
 * [Xcode](https://developer.apple.com/xcode/)
 
 ## How my app works:
-My app page contains below pages.
+My app contains below pages.
 
 **Introduction**
 
