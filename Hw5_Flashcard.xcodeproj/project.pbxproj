@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		885B85FB2084647E001A1744 /* AddFlachcardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885B85FA2084647E001A1744 /* AddFlachcardViewController.m */; };
+		885B86002086FA4F001A1744 /* FavTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885B85FF2086FA4F001A1744 /* FavTableViewController.m */; };
 		8874D65E2052729500322E7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8874D65D2052729500322E7E /* AppDelegate.m */; };
 		8874D6612052729500322E7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8874D6602052729500322E7E /* ViewController.m */; };
 		8874D6642052729500322E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8874D6622052729500322E7E /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 		8874D66C2052729500322E7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8874D66B2052729500322E7E /* main.m */; };
 		8874D6762052729500322E7E /* Homework4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8874D6752052729500322E7E /* Homework4Tests.m */; };
 		8874D6812052729500322E7E /* Homework4UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8874D6802052729500322E7E /* Homework4UITests.m */; };
+		88A74ADB208339F7008CDEF6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A74ADA208339F7008CDEF6 /* TableViewController.m */; };
+		88F93C6E2058714A0009CC7D /* Flashcard.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F93C6D2058714A0009CC7D /* Flashcard.m */; };
+		88F93C71205871780009CC7D /* FlashcardsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F93C70205871780009CC7D /* FlashcardsModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8874D6592052729500322E7E /* Homework4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		885B85F92084647E001A1744 /* AddFlachcardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddFlachcardViewController.h; sourceTree = "<group>"; };
+		885B85FA2084647E001A1744 /* AddFlachcardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddFlachcardViewController.m; sourceTree = "<group>"; };
+		885B85FE2086FA4F001A1744 /* FavTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavTableViewController.h; sourceTree = "<group>"; };
+		885B85FF2086FA4F001A1744 /* FavTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavTableViewController.m; sourceTree = "<group>"; };
+		8874D6592052729500322E7E /* Flashcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8874D65C2052729500322E7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8874D65D2052729500322E7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8874D65F2052729500322E7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -45,12 +54,18 @@
 		8874D6682052729500322E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8874D66A2052729500322E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8874D66B2052729500322E7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8874D6712052729500322E7E /* Homework4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Homework4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8874D6712052729500322E7E /* Hw5_FlashcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hw5_FlashcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8874D6752052729500322E7E /* Homework4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homework4Tests.m; sourceTree = "<group>"; };
 		8874D6772052729500322E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8874D67C2052729500322E7E /* Homework4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Homework4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8874D67C2052729500322E7E /* Hw5_FlashcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hw5_FlashcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8874D6802052729500322E7E /* Homework4UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homework4UITests.m; sourceTree = "<group>"; };
 		8874D6822052729500322E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A74AD9208339F7008CDEF6 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		88A74ADA208339F7008CDEF6 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		88F93C6C2058714A0009CC7D /* Flashcard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flashcard.h; sourceTree = "<group>"; };
+		88F93C6D2058714A0009CC7D /* Flashcard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flashcard.m; sourceTree = "<group>"; };
+		88F93C6F205871780009CC7D /* FlashcardsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashcardsModel.h; sourceTree = "<group>"; };
+		88F93C70205871780009CC7D /* FlashcardsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashcardsModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8833B367208429DB00A33675 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88A74AD9208339F7008CDEF6 /* TableViewController.h */,
+				88A74ADA208339F7008CDEF6 /* TableViewController.m */,
+				8874D65F2052729500322E7E /* ViewController.h */,
+				8874D6602052729500322E7E /* ViewController.m */,
+				885B85F92084647E001A1744 /* AddFlachcardViewController.h */,
+				885B85FA2084647E001A1744 /* AddFlachcardViewController.m */,
+				885B85FE2086FA4F001A1744 /* FavTableViewController.h */,
+				885B85FF2086FA4F001A1744 /* FavTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		8874D6502052729500322E7E = {
 			isa = PBXGroup;
 			children = (
@@ -91,9 +121,9 @@
 		8874D65A2052729500322E7E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8874D6592052729500322E7E /* Homework4.app */,
-				8874D6712052729500322E7E /* Homework4Tests.xctest */,
-				8874D67C2052729500322E7E /* Homework4UITests.xctest */,
+				8874D6592052729500322E7E /* Flashcard.app */,
+				8874D6712052729500322E7E /* Hw5_FlashcardTests.xctest */,
+				8874D67C2052729500322E7E /* Hw5_FlashcardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,15 +131,10 @@
 		8874D65B2052729500322E7E /* Homework4 */ = {
 			isa = PBXGroup;
 			children = (
-				8874D65C2052729500322E7E /* AppDelegate.h */,
-				8874D65D2052729500322E7E /* AppDelegate.m */,
-				8874D65F2052729500322E7E /* ViewController.h */,
-				8874D6602052729500322E7E /* ViewController.m */,
-				8874D6622052729500322E7E /* Main.storyboard */,
-				8874D6652052729500322E7E /* Assets.xcassets */,
-				8874D6672052729500322E7E /* LaunchScreen.storyboard */,
-				8874D66A2052729500322E7E /* Info.plist */,
-				8874D66B2052729500322E7E /* main.m */,
+				8833B367208429DB00A33675 /* Controller */,
+				8874D696205348CA00322E7E /* Model */,
+				8874D695205348BD00322E7E /* View */,
+				8874D694205347C800322E7E /* Supporting Files */,
 			);
 			path = Homework4;
 			sourceTree = "<group>";
@@ -132,12 +157,44 @@
 			path = Homework4UITests;
 			sourceTree = "<group>";
 		};
+		8874D694205347C800322E7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8874D65D2052729500322E7E /* AppDelegate.m */,
+				8874D6672052729500322E7E /* LaunchScreen.storyboard */,
+				8874D66A2052729500322E7E /* Info.plist */,
+				8874D66B2052729500322E7E /* main.m */,
+				8874D65C2052729500322E7E /* AppDelegate.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8874D695205348BD00322E7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8874D6652052729500322E7E /* Assets.xcassets */,
+				8874D6622052729500322E7E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8874D696205348CA00322E7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88F93C6C2058714A0009CC7D /* Flashcard.h */,
+				88F93C6D2058714A0009CC7D /* Flashcard.m */,
+				88F93C6F205871780009CC7D /* FlashcardsModel.h */,
+				88F93C70205871780009CC7D /* FlashcardsModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8874D6582052729500322E7E /* Homework4 */ = {
+		8874D6582052729500322E7E /* Hw5_Flashcard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8874D6852052729500322E7E /* Build configuration list for PBXNativeTarget "Homework4" */;
+			buildConfigurationList = 8874D6852052729500322E7E /* Build configuration list for PBXNativeTarget "Hw5_Flashcard" */;
 			buildPhases = (
 				8874D6552052729500322E7E /* Sources */,
 				8874D6562052729500322E7E /* Frameworks */,
@@ -147,14 +204,14 @@
 			);
 			dependencies = (
 			);
-			name = Homework4;
+			name = Hw5_Flashcard;
 			productName = Homework4;
-			productReference = 8874D6592052729500322E7E /* Homework4.app */;
+			productReference = 8874D6592052729500322E7E /* Flashcard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8874D6702052729500322E7E /* Homework4Tests */ = {
+		8874D6702052729500322E7E /* Hw5_FlashcardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8874D6882052729500322E7E /* Build configuration list for PBXNativeTarget "Homework4Tests" */;
+			buildConfigurationList = 8874D6882052729500322E7E /* Build configuration list for PBXNativeTarget "Hw5_FlashcardTests" */;
 			buildPhases = (
 				8874D66D2052729500322E7E /* Sources */,
 				8874D66E2052729500322E7E /* Frameworks */,
@@ -165,14 +222,14 @@
 			dependencies = (
 				8874D6732052729500322E7E /* PBXTargetDependency */,
 			);
-			name = Homework4Tests;
+			name = Hw5_FlashcardTests;
 			productName = Homework4Tests;
-			productReference = 8874D6712052729500322E7E /* Homework4Tests.xctest */;
+			productReference = 8874D6712052729500322E7E /* Hw5_FlashcardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8874D67B2052729500322E7E /* Homework4UITests */ = {
+		8874D67B2052729500322E7E /* Hw5_FlashcardUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8874D68B2052729500322E7E /* Build configuration list for PBXNativeTarget "Homework4UITests" */;
+			buildConfigurationList = 8874D68B2052729500322E7E /* Build configuration list for PBXNativeTarget "Hw5_FlashcardUITests" */;
 			buildPhases = (
 				8874D6782052729500322E7E /* Sources */,
 				8874D6792052729500322E7E /* Frameworks */,
@@ -183,9 +240,9 @@
 			dependencies = (
 				8874D67E2052729500322E7E /* PBXTargetDependency */,
 			);
-			name = Homework4UITests;
+			name = Hw5_FlashcardUITests;
 			productName = Homework4UITests;
-			productReference = 8874D67C2052729500322E7E /* Homework4UITests.xctest */;
+			productReference = 8874D67C2052729500322E7E /* Hw5_FlashcardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +270,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8874D6542052729500322E7E /* Build configuration list for PBXProject "Homework4" */;
+			buildConfigurationList = 8874D6542052729500322E7E /* Build configuration list for PBXProject "Hw5_Flashcard" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,9 +283,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8874D6582052729500322E7E /* Homework4 */,
-				8874D6702052729500322E7E /* Homework4Tests */,
-				8874D67B2052729500322E7E /* Homework4UITests */,
+				8874D6582052729500322E7E /* Hw5_Flashcard */,
+				8874D6702052729500322E7E /* Hw5_FlashcardTests */,
+				8874D67B2052729500322E7E /* Hw5_FlashcardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,8 +323,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8874D6612052729500322E7E /* ViewController.m in Sources */,
+				88A74ADB208339F7008CDEF6 /* TableViewController.m in Sources */,
 				8874D66C2052729500322E7E /* main.m in Sources */,
+				88F93C6E2058714A0009CC7D /* Flashcard.m in Sources */,
+				88F93C71205871780009CC7D /* FlashcardsModel.m in Sources */,
 				8874D65E2052729500322E7E /* AppDelegate.m in Sources */,
+				885B85FB2084647E001A1744 /* AddFlachcardViewController.m in Sources */,
+				885B86002086FA4F001A1744 /* FavTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,12 +354,12 @@
 /* Begin PBXTargetDependency section */
 		8874D6732052729500322E7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8874D6582052729500322E7E /* Homework4 */;
+			target = 8874D6582052729500322E7E /* Hw5_Flashcard */;
 			targetProxy = 8874D6722052729500322E7E /* PBXContainerItemProxy */;
 		};
 		8874D67E2052729500322E7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8874D6582052729500322E7E /* Homework4 */;
+			target = 8874D6582052729500322E7E /* Hw5_Flashcard */;
 			targetProxy = 8874D67D2052729500322E7E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,7 +496,7 @@
 				INFOPLIST_FILE = Homework4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jaejunmi.Homework4;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Flashcard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -447,7 +509,7 @@
 				INFOPLIST_FILE = Homework4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jaejunmi.Homework4;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Flashcard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -462,7 +524,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jaejunmi.Homework4Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework4.app/Homework4";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hw5_Flashcard.app/Hw5_Flashcard";
 			};
 			name = Debug;
 		};
@@ -476,7 +538,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jaejunmi.Homework4Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework4.app/Homework4";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hw5_Flashcard.app/Hw5_Flashcard";
 			};
 			name = Release;
 		};
@@ -509,7 +571,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8874D6542052729500322E7E /* Build configuration list for PBXProject "Homework4" */ = {
+		8874D6542052729500322E7E /* Build configuration list for PBXProject "Hw5_Flashcard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8874D6832052729500322E7E /* Debug */,
@@ -518,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8874D6852052729500322E7E /* Build configuration list for PBXNativeTarget "Homework4" */ = {
+		8874D6852052729500322E7E /* Build configuration list for PBXNativeTarget "Hw5_Flashcard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8874D6862052729500322E7E /* Debug */,
@@ -527,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8874D6882052729500322E7E /* Build configuration list for PBXNativeTarget "Homework4Tests" */ = {
+		8874D6882052729500322E7E /* Build configuration list for PBXNativeTarget "Hw5_FlashcardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8874D6892052729500322E7E /* Debug */,
@@ -536,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8874D68B2052729500322E7E /* Build configuration list for PBXNativeTarget "Homework4UITests" */ = {
+		8874D68B2052729500322E7E /* Build configuration list for PBXNativeTarget "Hw5_FlashcardUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8874D68C2052729500322E7E /* Debug */,
