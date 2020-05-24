@@ -1,4 +1,4 @@
-# IOS Flashcard APP
+# IOS Flashcard Application
 
 
 ## Assignment proposal
