@@ -1,4 +1,4 @@
-# Flashcard
+# IOS Flashcard APP
 
 
 ## Assignment proposal
@@ -12,12 +12,12 @@ You will need the following things properly installed on your computer.
 * [Git](https://git-scm.com/)
 * [Xcode](https://developer.apple.com/xcode/)
 
-## How my site works:
+## How my app works:
 My app page contains below pages.
 
 **Introduction**
-![Guide](https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/Intro.png?raw=true){:height="400px" width="200px"}
-<!-- ![Guide](https://github.com/Jaejun-Project/pubg_leaderboard/blob/master/ImgRead/leaderboard.png) -->
+
+![Guide](https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/Intro.png?raw=true =250x250)
 
 **Flashcard Questions**
 - Display Question
