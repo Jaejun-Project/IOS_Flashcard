@@ -43,7 +43,7 @@ My app page contains below pages.
 </p>
 
 - You can delete the flashcard by clicking the "edit" button on top left conner from list page.
-- You can go to add flashcard page by clicking the "+" button on top reight conner from list page.
+- You can go to add flashcard page by clicking the "+" button on top right conner from list page.
 
 
 **Add to Favorite List & Favorite List Page**
@@ -53,7 +53,7 @@ My app page contains below pages.
   <img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/favList.png?raw=true"  width="200" height="400" />
 </p>
 
-- Add to favorite list by clicking the star button and remove from favorite list by un-clicking the star button
+- Add to favorite list by clicking the star button and make it colored and remove from favorite list by re-clicking the star button and make it not colored
 
 
 
