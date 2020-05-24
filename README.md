@@ -10,20 +10,13 @@ Create Flashcard app to help users study and memories technical terms
 You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
-* [Xcode]
+* [Xcode](https://developer.apple.com/xcode/)
 
 ## How my site works:
 My app page contains below pages.
 
-![Main page]
-
-
 **Introduction**
-<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/Intro.png?raw=true"  width="150" height="300" />
-=======
-![Guide](https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/Intro.png?raw=true)
->>>>>>> f6db8b2bd1a66814d150d880053d9cad2cdbaea0
-
+![Guide](https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/Intro.png?raw=true){:height="400px" width="200px"}
 <!-- ![Guide](https://github.com/Jaejun-Project/pubg_leaderboard/blob/master/ImgRead/leaderboard.png) -->
 
 **Flashcard Questions**
