@@ -17,7 +17,7 @@ My app page contains below pages.
 
 **Introduction**
 
-<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/Intro.png?raw=true"  width="150" height="400" />
+<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/Intro.png?raw=true"  width="200" height="400" />
 
 **Flashcard Questions**
 - Display Question
