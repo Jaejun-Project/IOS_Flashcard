@@ -19,7 +19,7 @@ My app page contains below pages.
 
 
 **Introduction**
-- Display how to use the app
+![Guide]((https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/Intro.png?raw=true)
 
 <!-- ![Guide](https://github.com/Jaejun-Project/pubg_leaderboard/blob/master/ImgRead/leaderboard.png) -->
 
