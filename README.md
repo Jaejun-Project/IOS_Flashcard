@@ -35,15 +35,18 @@ My app page contains below pages.
 - You can see all questions and answers from list page
 - You can add or delete questions from this list page
 
-**Delete Flashcard**
+**Delete & Add Flashcard**
 
+<p float="left">
 <img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/deleteFlashcard.png?raw=true"  width="200" height="400" />
-
-**Add Flashcard**
-
 <img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/addFlashcard.png?raw=true"  width="200" height="400" />
+</p>
 
-**Add to Favorite List && Favorite List**
+- You can delete the flashcard by clicking the "edit" button on top left conner from list page.
+- You can go to add flashcard page by clicking the "+" button on top reight conner from list page.
+
+
+**Add to Favorite List & Favorite List Page**
 
 <p float="left">
   <img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/addTOfav_ques.png?raw=true"  width="200" height="400" />
