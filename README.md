@@ -19,8 +19,7 @@ My app page contains below pages.
 
 
 **Introduction**
-<<<<<<< HEAD
-<img src="https://github.com/jaejun-min/itp405-FinalProject-part1/blob/master/readme_img/login.png"  width="150" height="300" />
+<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/Intro.png?raw=true"  width="150" height="300" />
 =======
 ![Guide](https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/Intro.png?raw=true)
 >>>>>>> f6db8b2bd1a66814d150d880053d9cad2cdbaea0
