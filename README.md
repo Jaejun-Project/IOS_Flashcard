@@ -19,7 +19,7 @@ My app page contains below pages.
 
 
 **Introduction**
-![Guide]((https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/Intro.png?raw=true)
+<img src="https://github.com/jaejun-min/itp405-FinalProject-part1/blob/master/readme_img/login.png"  width="150" height="300" />
 
 <!-- ![Guide](https://github.com/Jaejun-Project/pubg_leaderboard/blob/master/ImgRead/leaderboard.png) -->
 
