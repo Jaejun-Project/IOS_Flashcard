@@ -2,7 +2,7 @@
 
 
 ## Assignment proposal
-Create Flashcard app to help users study and memories technical terms
+Create Flashcard app to help users study and memorize technical terms
 
 
 ## Prerequisites
