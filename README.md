@@ -19,24 +19,35 @@ My app page contains below pages.
 
 <img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/Intro.png?raw=true"  width="200" height="400" />
 
-**Flashcard Questions**
-- Display Question
 
-<!-- ![](https://github.com/Jaejun-Project/pubg_leaderboard/blob/master/ImgRead/stat.png) -->
-
-**Answers**
+**Questions & Answers**
 - Display Answers
 
-<!-- ![register](https://github.com/Jaejun-Project/pubg_leaderboard/blob/master/ImgRead/register.png) -->
+<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/collectionQues.png?raw=true"  width="200" height="400" />
 
-![login]
-
+<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/answerColl.png?raw=true"  width="200" height="400" />
 
 **List of Flashcard**
 
+<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/listOfFlashcards.png?raw=true"  width="200" height="400" />
 
-**Add to Favorite List && Favorite List**
+- You can see all questions and answers from list page
+- You can add or delete questions from this list page
 
 **Delete Flashcard**
+<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/deleteFlashcard.png?raw=true"  width="200" height="400" />
 
 **Add Flashcard**
+
+<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/addFlashcard.png?raw=true"  width="200" height="400" />
+
+**Add to Favorite List && Favorite List**
+<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/addTOfav_ques.png?raw=true"  width="200" height="400" />
+
+<img src="https://github.com/Jaejun-Project/IOS_Flashcard/blob/master/IOS_Flashcard_img/favList.png?raw=true"  width="200" height="400" />
+
+- Add to favorite list by clicking the star button and remove from favorite list by un-clicking the star button
+
+
+
+
